@@ -1,0 +1,55 @@
+$inputColour: #FFFFFF;
+$inputBorder: #DCDCE4;
+$inputColour: #FFFFFF;
+$inputBorder: #DCDCE4;
+
+.input__field {
+    background: $inputColour;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 16px;
+    border: 1px solid $inputBorder;
+    box-sizing: border-box;
+    border-radius: 4px;
+    position: static;
+    width: 243px;
+    height: 40px;
+    left: 0px;
+    top: 20px;
+
+.input__text::placeholder{
+        position: static;
+        width: 211px;
+        left: 16px;
+        top: 25%;
+        bottom: 25%;
+        font-family: 'SF Pro Text';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 20px;
+        color: #8E8EA9;
+        display: flex;
+        align-items: center;
+    }
+.input__label {
+        bottom: 80%;
+        font-family: 'SF Pro Text';
+        width: 33px;
+        left: 0px;
+        top: 0%;
+        bottom: 80%;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 16px;
+        color: #32324D;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 4px 0px;
+    }   
+}
+

@@ -1,0 +1,68 @@
+$buttonColour: #4945FF;
+$buttonHover: #7B79FF;
+$buttonActive: #271FE0;
+$buttonBorder:#000000;
+
+.button {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border: 1px solid $buttonBorder;
+    border-radius: 4px;
+    background: $buttonColour;
+    padding: 8px 16px;
+    display: flex;
+    color: white;
+    font-family: 'SF Pro Text';
+    cursor: pointer;
+    user-select: none;
+    justify-content: center;
+    align-items: center;
+    width: 58px;
+    height: 32px;
+    left: 60px;
+    top: 71px;
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: bold;
+}
+
+.button:hover {
+    background: $buttonHover;
+    border: 1px solid $buttonHover;
+    box-shadow: none;
+}
+
+.button:active {
+    background: $buttonActive;
+    border: 1px solid $buttonActive;
+}
+
+.buttonM {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 16px;
+    background: #4945FF;
+    border-radius: 4px;
+    color: white;
+    width: 62px;
+    height: 36px;
+    left: 258px;
+    top: 69px;
+    cursor: pointer;
+    user-select: none;
+    font-family: SF Pro Text;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.buttonM:hover{
+    background: #7B79FF;
+}
+
+.buttonM:active{
+    background: #271FE0;
+}
+
